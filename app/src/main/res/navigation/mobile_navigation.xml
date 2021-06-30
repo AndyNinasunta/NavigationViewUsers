@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_opcion1">
+
+    <fragment
+        android:id="@+id/nav_opcion1"
+        android:name="com.example.tareavistadenavegacin.ui.home.HomeFragment"
+        android:label="@string/menu_opcion1"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_opcion2"
+        android:name="com.example.tareavistadenavegacin.ui.gallery.GalleryFragment"
+        android:label="@string/menu_opcion2"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_opcion3"
+        android:name="com.example.tareavistadenavegacin.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_opcion3"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_opcion4"
+        android:name="com.example.tareavistadenavegacin.nav_opcion4"
+        android:label="@string/menu_opcion4"
+        tools:layout="@layout/fragment_nav_opcion4" />
+    <fragment
+        android:id="@+id/nav_opcion5"
+        android:name="com.example.tareavistadenavegacin.nav_opcion5"
+        android:label="@string/menu_opcion5"
+        tools:layout="@layout/fragment_nav_opcion5" />
+</navigation>
